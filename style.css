@@ -1,0 +1,247 @@
+*
+{
+	margin-right: 0;
+	padding: 0;
+
+}
+header
+{
+	font-family: "Caveat Brush";
+}
+h1
+{
+	font-size: 100px;
+}
+
+.bgimg
+{
+	background-image: url(Background/cycle2.jpg);
+ 	height: 90vh;
+
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+body
+{
+	background-color:black; 
+
+}
+
+ul li a
+{
+	color: white;
+}
+
+ul li a:hover
+{
+	color: #ea9449;
+}
+
+h2
+{
+	font-family: "Charmonman";
+	text-align: center;
+	padding: 50px;
+	color: #ff7b00;
+
+}
+h1
+{
+    font-family: "Caveat Brush";
+    text-align: center;
+    padding: 50px;
+    color: white;
+
+}
+
+img 
+{
+ 	padding: 20px;
+  	transition: transform .2s;
+  	margin: 0 auto;
+}
+
+img:hover 
+{
+  transform: scale(1.1);
+}
+
+
+.wrapper{
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 0px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.wrapper .box{
+  background: #000000;
+  width: calc(33% - 10px);
+  padding: 25px;
+  border-radius: 3px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
+}
+.wrapper .box i.quote{
+  font-size: 20px;
+  color: #ffffff;
+}
+.wrapper .box .content{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.box .info .name{
+  color: #ff7b00;
+  font-weight: 600;
+  font-size: 17px;
+}
+.box .info .job{
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.box .info .stars{
+  margin-top: 2px;
+}
+.box .info .stars i{
+  color: #ff7b00;
+}
+.box .content .image{
+  height: 75px;
+  width: 75px;
+  padding: 3px;
+  background: #ff7b00;
+  border-radius: 50%;
+}
+.content .image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+.box:hover .content .image img{
+  border-color: #fff;
+}
+
+@media (max-width: 1045px) {
+  .wrapper .box{
+    width: calc(50% - 10px);
+    margin: 10px 0;
+  }
+}
+@media (max-width: 702px) {
+  .wrapper .box{
+    width: 100%;
+  }
+}
+p
+{
+    color: white;
+    font-family: "Charmonman";
+}
+
+.container
+{
+    margin-top: 20px;
+}
+.column 
+{
+    
+    float: left;
+    width: 50%;
+    padding: 5px;
+
+}
+.flex-container
+{
+  display: flex;
+ 
+}
+.abouttext
+{
+    vertical-align: middle;
+}
+form
+{
+    color: white;
+    font-family: "Charmonman";
+}
+#contact
+{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+input[type=email]
+{
+    color:white;
+    background-color: black;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: #FF7A00;
+
+  border-radius: 15px;
+}
+input[type=text]
+{
+    color:white;
+    background-color: black;
+    width: 100%;
+    padding: 100px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: #FF7A00;
+    border-radius: 15px;
+}
+
+input[type=button], input[type=submit], input[type=reset] 
+{
+  background-color: black;
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: #FF7A00;
+  border-radius: 15px;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#subbutton
+{
+    text-align: center;
+}
+h6
+{
+    font-family: "Caveat Brush";
+    color:white;
+    font-size:30px;
+}
+footer
+{
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 50px;
+}
+
+#container
+{
+    align-items: center;
+}
+footer
+{
+    margin-left: 70vh;
+   
+}
